@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "YCF/HleRRNys3jDumkNMX8BTbctOEWMRHYHXDqGIBjg=",
+  "Source": "OpenColectaAPI",
+  "BasePath": "_content/OpenColectaAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

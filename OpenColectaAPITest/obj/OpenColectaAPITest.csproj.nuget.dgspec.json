@@ -1,0 +1,173 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/gixlab/Desktop/OpenColecta/OpenColecta/OpenColectaAPITest/OpenColectaAPITest.csproj": {}
+  },
+  "projects": {
+    "/home/gixlab/Desktop/OpenColecta/OpenColecta/OpenColectaAPI/OpenColectaAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gixlab/Desktop/OpenColecta/OpenColecta/OpenColectaAPI/OpenColectaAPI.csproj",
+        "projectName": "OpenColectaAPI",
+        "projectPath": "/home/gixlab/Desktop/OpenColecta/OpenColecta/OpenColectaAPI/OpenColectaAPI.csproj",
+        "packagesPath": "/home/gixlab/.nuget/packages/",
+        "outputPath": "/home/gixlab/Desktop/OpenColecta/OpenColecta/OpenColectaAPI/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/home/gixlab/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/gixlab/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gixlab/Desktop/OpenColecta/OpenColecta/OpenColectaAPITest/OpenColectaAPITest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gixlab/Desktop/OpenColecta/OpenColecta/OpenColectaAPITest/OpenColectaAPITest.csproj",
+        "projectName": "OpenColectaAPITest",
+        "projectPath": "/home/gixlab/Desktop/OpenColecta/OpenColecta/OpenColectaAPITest/OpenColectaAPITest.csproj",
+        "packagesPath": "/home/gixlab/.nuget/packages/",
+        "outputPath": "/home/gixlab/Desktop/OpenColecta/OpenColecta/OpenColectaAPITest/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/home/gixlab/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/gixlab/Desktop/OpenColecta/OpenColecta/OpenColectaAPI/OpenColectaAPI.csproj": {
+                "projectPath": "/home/gixlab/Desktop/OpenColecta/OpenColecta/OpenColectaAPI/OpenColectaAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/gixlab/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
